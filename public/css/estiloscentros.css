@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo */
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%; /* Ancho al 100% */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    padding: 20px; /* Margen interno */
+    box-sizing: border-box; /* Incluir bordes y rellenos en el ancho total */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #007bff; /* Color de fondo */
+    padding: 10px 0; /* Margen interno superior e inferior */
+    width: 100%; /* Ancho al 100% */
+    box-sizing: border-box; /* Incluir bordes y rellenos en el ancho total */
+    text-align: center;
+}
+
+nav a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
+    margin: 0 10px; /* Margen entre enlaces */
+}
+
+/* Estilos para el contenido */
+#data {
+    display: flex; /* Usar flexbox para distribuir los elementos */
+    flex-direction: column; /* Colocar los elementos en columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    justify-content: center; /* Centrar los elementos verticalmente */
+    margin-top: 20px; /* Margen superior */
+}
+
+#data div {
+    text-align: center; /* Centrar el texto dentro de los divs */
+    margin-bottom: 20px; /* Margen inferior entre elementos */
+}
+
+#data h1 {
+    color: #007bff; /* Color del título */
+    margin: 0; /* Resetear margen */
+}
+
+#data p {
+    color: #333; /* Color del texto */
+    margin: 0; /* Resetear margen */
+    text-align: center; /* Centrar el texto horizontalmente */
+}
